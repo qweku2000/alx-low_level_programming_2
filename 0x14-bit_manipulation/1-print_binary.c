@@ -11,6 +11,7 @@
 
 void print_binary(unsigned long int n)
 {
+        int a;
 	if (n > 1)
 	  {
 		print_binary(n >> 1);
