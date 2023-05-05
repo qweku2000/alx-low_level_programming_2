@@ -6,6 +6,7 @@
  *
  *@n:The bits
  *@index: index used to check bits
+ *Return - -1 on error
 */
 
 
