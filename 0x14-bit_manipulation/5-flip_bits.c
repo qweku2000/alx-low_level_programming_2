@@ -1,3 +1,13 @@
+#include "main.h"
+
+/**
+ *flip_bits - Counts the number of bits needed to be flipped to get one number to another number
+ *@n:The number
+ *@m:Numbers to flip n to
+ *
+ * Return - Number of bits to flip
+ */
+
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int a, b;
