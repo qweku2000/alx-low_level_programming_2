@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
+#include "main.h"
 #include <unistd.h>
 /**
  * create_file - Create a file object
