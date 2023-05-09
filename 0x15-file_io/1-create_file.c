@@ -12,20 +12,19 @@
 
 int create_file(const char *filename, char *text_content)
 {
-         int fd, wd,i;
-         
+         int fd, wd;
+
+	 int i = 0;
        
         if (!filename)
-                return (-1);
-        else    
-                return (1) ;       
+                return (-1);       
 
         if (!text_content)  
                 return (-1);  
 
         if (text_content!=NULL)
                 while (text_content[i]!='\0')
-                            return (i);
+                           i++;
         
         fd = open(filename,O_CREAT|O_RDWR|O_TRUNC,0600);
         if (fd<0)
